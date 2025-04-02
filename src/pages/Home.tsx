@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -32,7 +33,7 @@ const Home = () => {
                   </Button>
                 </Link>
                 <Link to="/places">
-                  <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                  <Button variant="outline" size="lg" className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black border-yellow-500">
                     <Search className="mr-2 h-5 w-5" />
                     Explorar lugares
                   </Button>
