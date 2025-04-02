@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Coffee, Utensils, Users, Heart, Briefcase, Music, FamilyTree, Library, Wine } from 'lucide-react';
+import { Coffee, Utensils, Users, Heart, Briefcase, Music, Home, Library, Wine } from 'lucide-react';
 
 type Category = {
   id: string;
@@ -50,7 +50,7 @@ const categories: Category[] = [
   {
     id: '7',
     name: 'Familia',
-    icon: <FamilyTree className="w-5 h-5 text-green-500" />,
+    icon: <Home className="w-5 h-5 text-green-500" />,
     slug: 'familia'
   },
   {
